@@ -1,0 +1,56 @@
+.middleblock{
+    width: 700px;
+    height: 980px;
+    padding: 20px;
+    border: 2px solid #db9748;
+    margin: 10px;
+    background-color: #a8ff92;
+    box-sizing: border-box; /* Recommended: includes padding/border in the 300px width */
+    position: relative; 
+    top: 0%;  /* Moves it down 20px */
+    left: 35%;
+}
+.mainblock{
+    width: 135px;
+    height: auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    margin: 10px;
+    background-color: hsl(32, 100%, 66%);
+    box-sizing: border-box; /* Recommended: includes padding/border in the 300px width */
+    position: relative; 
+    left: 50%;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #f8af7e;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    color: #000000;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: hsl(133, 100%, 73%);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-image: url('images/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: keeps background static while scrolling */
+}
+.logo{
+    box-sizing: border-box; /* Recommended: includes padding/border in the 300px width */
+    position: relative; 
+    left: 38%;
+}
